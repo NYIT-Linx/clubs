@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffb71b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gameclub">
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="263dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="82dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gamelogo" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="403dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView64"
+        app:srcCompat="@drawable/gamedes1" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="409dp"
+        android:layout_height="146dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView61"
+        app:srcCompat="@drawable/gamedes2" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="396dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView62"
+        app:srcCompat="@drawable/gamecon" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="408dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/gamename"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="184dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
